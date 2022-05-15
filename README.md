@@ -4,6 +4,12 @@ Standalone Reactive tracker, like [Meteor's `Tracker`](https://docs.meteor.com/a
 
 Less than 1KiB gzipped.
 
+## Installation
+
+```sh
+npm install --save @suchipi/tracker
+```
+
 ## Sample usage
 
 ```ts

@@ -24,6 +24,7 @@
     "build:lib": "vite build",
     "build:types": "tsc -p . --emitDeclarationOnly"
   },
+  "repository": "suchipi/tracker",
   "dependencies": {},
   "devDependencies": {
     "typescript": "^4.6.4",
