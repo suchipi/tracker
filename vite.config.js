@@ -8,6 +8,7 @@ module.exports = defineConfig({
       entry: path.resolve(__dirname, "src/index.ts"),
       name: "Tracker",
       fileName: (format) => `tracker.${format}.js`,
+      formats: ["es", "cjs", "umd"],
     },
   },
 });
