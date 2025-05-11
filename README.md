@@ -37,14 +37,14 @@ Runs its received function now, and also registers it to be re-run in the future
 ```ts
 import { autorun } from "@suchipi/tracker";
 
-Tracker.autorun(() => {
+autorun(() => {
   // your code that uses Dependency objects goes here
 });
 ```
 
 ### `Dependency`
 
-Used to represent a value or resource that can be changed. When it changes, any functions that accessed it during a `Tracker.autorun` call will be automatically re-run.
+Used to represent a value or resource that can be changed. When it changes, any functions that accessed it during a `autorun` call will be automatically re-run.
 
 ```ts
 import { Dependency } from "@suchipi/tracker";
